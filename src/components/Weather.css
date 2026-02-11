@@ -60,3 +60,14 @@ body{
    flex-shrink: 0;
     
 }
+@media (max-width:480px){
+    .weather-container{
+        padding: 15px;
+    }
+    
+}
+@media(min-width:768px){
+    .weather-container{
+        max-width: 500px;
+    }
+}
